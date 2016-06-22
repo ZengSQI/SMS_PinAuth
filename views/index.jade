@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  h1= "List"
+  each data in datas
+    li= data.user_id + ' ' + data.phone
